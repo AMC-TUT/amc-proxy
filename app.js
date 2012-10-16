@@ -1,17 +1,10 @@
 // http://github.com/nodejitsu/node-http-proxy
 
-// Libs
+// Required Modules
 var fs = require('fs'),
 	http = require('http'),
 	https = require('https'),
 	httpProxy = require('http-proxy');
-
-// Server Instance
-var server = http.createServer(function (req, res) {
-	res.writeHead(200, { 'Content-Type': 'text/plain' });
-	res.write('Proxy says hello o/ !' + '\n' );
-	res.end();
-}).listen(9000);
 
 // Proxy Settings
 var optionsHTTPS = {
@@ -36,7 +29,7 @@ var optionsHTTP = {
 		'amc2.pori.tut.fi': '127.0.0.1:8080', // amc2 www-server
 		'amc.pori.tut.fi/game-server/': '127.0.0.1:9002', // game socket server
 		'amc.pori.tut.fi': '127.0.0.1:8080', // amc www-server
-		'magos.pori.tut.fi/editor/': '127.0.0.1:9001', // magos editor
+		'amc.pori.tut.fi/editor/': '127.0.0.1:9001', // magos editor
 		'magos.pori.tut.fi/play/': '127.0.0.1:9003', // magos game platform
 		'magos.pori.tut.fi': '127.0.0.1:8081' // django
 	}
