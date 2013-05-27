@@ -1,0 +1,25 @@
+{
+  "name": "amc-proxy",
+  "version": "0.0.2",
+  "description": "proxy4web",
+  "main": "app.js",
+  "dependencies": {
+    "http-proxy": "~0.8.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AMC-TUT/amc-proxy.git"
+  },
+  "keywords": [
+    "proxy",
+    "nodejs"
+  ],
+  "author": "teemu jönkkäri",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "9d065410ae0f2e72c5f333ad5a6ec217d52c6649"
+}

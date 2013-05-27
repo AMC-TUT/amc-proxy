@@ -30,7 +30,7 @@ var optionsHTTP = {
   hostNameOnly: true,
   router: {
     'amc2.pori.tut.fi': '127.0.0.1:8080', // amc2 www-server
-    'amc.pori.tut.fi/game-server/': '127.0.0.1:9002', // game socket server
+    'amc2.pori.tut.fi/game-server': '127.0.0.1:9002', // game socket server
     'amc.pori.tut.fi': '127.0.0.1:8080', // amc www-server
     'amc.pori.tut.fi/editor/': '127.0.0.1:9001', // magos editor
     'magos.pori.tut.fi/play/': '127.0.0.1:9003', // magos game platform
