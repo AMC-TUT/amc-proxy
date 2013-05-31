@@ -1,7 +1,7 @@
 {
-  "name": "amc-proxy",
-  "version": "0.0.2",
-  "description": "proxy4web",
+  "name": "proxy",
+  "version": "0.0.3",
+  "description": "simple proxy configuration",
   "main": "app.js",
   "dependencies": {
     "http-proxy": "~0.8.7"
@@ -16,10 +16,11 @@
   },
   "keywords": [
     "proxy",
-    "nodejs"
+    "node.js",
+    "node-http-proxy"
   ],
   "author": "teemu jönkkäri",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "gitHead": "9d065410ae0f2e72c5f333ad5a6ec217d52c6649"
+  "gitHead": "f0f9288eb7a393e783745213f7f6cf28a067a1e5"
 }
